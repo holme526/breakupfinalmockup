@@ -1,0 +1,12 @@
+$(document).ready(function() {
+	$.jInvertScroll(['.scroll'],
+	{
+            height: 14000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                console.log(percent);
+            }
+    });
+	// an array containing the selector(s) for the elements you want to animate
+            
+
+});
